@@ -1,0 +1,16 @@
+name: caller debug
+on:
+  pull_request:
+    types: ['opened', 'synchronize', 'closed']
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  provision_resources:
+    uses: zepouet/reusable-debug@main
