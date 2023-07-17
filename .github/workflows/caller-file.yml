@@ -1,4 +1,4 @@
-name: caller debug
+name: caller debug2
 on:
   pull_request:
     types: ['opened', 'synchronize', 'closed']
