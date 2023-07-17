@@ -1,4 +1,4 @@
-name: caller debug3
+name: caller debug 4
 on:
   pull_request:
     types: ['opened', 'synchronize', 'closed']
@@ -13,4 +13,4 @@ concurrency:
 
 jobs:
   provision_resources:
-    uses: zepouet/reusable-debug/.github/workflows/flow.yml@main
+    uses: zepouet/reusable-debug/.github/workflows/flow.yml@v1
