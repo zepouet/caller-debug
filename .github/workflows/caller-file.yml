@@ -13,4 +13,4 @@ concurrency:
 
 jobs:
   provision_resources:
-    uses: zepouet/reusable-debug/.github/workflows/flow.yml@v1.0.0
+    uses: zepouet/reusable-debug/.github/workflows/flow.yml@v1.0
